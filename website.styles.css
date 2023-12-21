@@ -1,0 +1,141 @@
+html , body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #83c5be;
+    text-align: center;
+    display: flex;
+    justify-content: right;
+    border: 1px solid black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 80px;
+}
+a:hover {
+    background-color: #006d77;
+    color: white;
+}
+.contry-container {
+    width: 800px;
+    background-color: #edf6f9;
+    margin: auto;
+}
+body {
+    background-color: #006d77;
+    width: 100%;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Cantarell', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+footer {
+    background-color: #83c5be;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.instagram-media {
+   width: 200px;
+   height: 650px;
+   justify-content: center;
+}
+h1 {
+    font-size: 28px;
+    text-align: left;
+    padding-left: 30px;
+    margin-top: 0px;
+    padding-top: 70px;
+}
+p {
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.pic {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+   
+}
+.row1 {
+    font-size: bold;
+}
+.pic img {
+    width: 100%;
+    height: 100px;
+    border: 2px solid #006d77;
+    border-radius: 15px;
+    
+}
+.item {
+    border: #006d77;
+    margin: 5px;
+    transition: all 0.5 0;
+
+}
+.item:hover {
+    width: 130px;
+}
+.Youtube {
+    margin-left: 30px;
+    border: #006d77;
+    display: flex;
+}
+.par {
+    background-color: #006d77;
+    color: white;
+    margin-bottom: 250px;
+    margin-left: 30px;
+    margin-right: 20px;
+    border-radius: 15px;
+
+}
+.insta {
+    margin-left: 30px;
+    border: #006d77;
+    display: flex;
+    
+}
+.tewter {
+    margin-left: 30px;
+    border: #006d77;
+    display: flex;
+}
+.twe {
+    background-color: #006d77;
+    color: white;
+    height: 50px;
+    margin-bottom: 350px;
+    margin-left: 30px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+.per {
+    background-color: #006d77;
+    color: white;
+    height: 80px;
+    margin-bottom: 350px;
+    margin-left: 80px;
+    margin-right: auto;
+    border-radius: 15px;
+    padding-right: 30px;
+}
+.insta {
+    margin-left: 25px;
+    border: #006d77;
+}

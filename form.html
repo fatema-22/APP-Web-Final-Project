@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Cantarell&family=Outfit:wght@500&family=Poppins&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="form.styles.css" type="text/css">
+</head>
+<body>
+    <div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="types.html">Types Of Graphic</a>
+            <a href="website.html">Website</a>
+            <a href="form.html">Form</a>
+        </nav>
+      </div>
+    <main>
+      <form action="confirmation.html" method="GET">
+        <div class="country-container">
+          <h1>Form</h1>
+          <p class="visit">Thankyou for visiting this page, fill out this form for more information and to subscribe to the Graphic Design class.😇🤗</p>
+          <p><b>Please fill out the below form.</b></p>
+          <div class="space">
+            <div>
+              <label for="name"><b>Name:</b></label>
+              <input type="text" id="name-label" placeholder="Fatema Tawakoli" name="name" required minlength="3"/>
+            </div>
+            <div>
+               <label for="email"><b>Email:</b></label>
+               <input type="email" id="emai-label" name="email" placeholder="fatemah.tawakoli@gmail.com" required/>
+            </div>
+          </div>
+          <div class="space">
+            <label><b>Which of the following programs did you read?</b></label>
+
+            <input type="radio" name="programs-choice" id="Photoshop/">
+            <label for="Photoshop" class="inline-label">Photoshop</label>
+
+            <input type="radio" name="programs-choice" id="Illustrator/">
+            <label for="Illustrator" class="inline-label">Illustrator</label>
+
+            <input type="radio" name="programs-choice" id="InDesign/">
+            <label for="InDesign" class="inline-label">InDesign</label>
+
+            <input type="radio" name="programs-choice" id="AfterEffect/">
+            <label for="AfterEffect" class="inline-label">AfterEffect</label>
+
+            <input type="radio" name="programs-choice" id="CorelDraw/">
+            <label for="CorelDraw" class="inline-label">CorelDraw</label>
+          </div>
+ 
+          <div class="space">
+            <label><b>which programs do you like to learn?</b></label>
+
+            <input type="checkbox" id="Photoshop" name="add-choice"/>
+            <label for="Photoshop" class="inline-label">Photoshop</label>
+
+            <input type="checkbox" id="Illustrator" name="add-choice"/>
+            <label for="Illustrator" class="inline-label">Illustrator</label>
+
+            <input type="checkbox" id="InDesign" name="add-choice"/>
+            <label for="InDesign" class="inline-label">InDesign</label>
+
+            <input type="checkbox" id="AfterEffect" name="add-choice"/>
+            <label for="AfterEffect" class="inline-label">AfterEffect</label>
+
+            <input type="checkbox" id="CorelDraw" name="add-choice"/>
+            <label for="CorelDraw" class="inline-label">CorelDraw</label>
+          </div>
+          <div class="commet">
+            <label for="comments" class="comments"><b>Comments</b></label>
+            <textarea id="comments" placeholder="Write here"></textarea>
+         </div>
+         <div class="end">
+           <button type="submit">Submit</button>
+           <button type="reset">Reset</button>
+         </div>
+
+
+        </div>
+      </form>
+    </main>
+    <footer>
+      Code Written by Fatema Tawakoli
+    </footer>
+     
+</body>
+</html>
