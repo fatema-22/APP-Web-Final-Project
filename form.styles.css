@@ -50,7 +50,7 @@ body {
 }
 .space {
    margin-top: 5px;
-   padding-top: 5px;
+   padding-top: 10px;
    padding-left: 30px;
    padding-right: 30px;
    border-radius: 15px; 
@@ -88,6 +88,7 @@ audio {
     margin-right: auto;
     display: block;
     padding-bottom: 20px;
+    
 }
 .comments {
   margin-top: 15px;
@@ -101,7 +102,7 @@ audio {
 }
 .inline-label {
     display: inline;
-    padding-top: 5px;
+    padding-top: 10px;
     margin-top: 5px;
     
 }
@@ -110,7 +111,7 @@ label {
     padding-top: 5px;
 }
 textarea {
-  width:90%;
+  width:86%;
   border-radius: 15px;
   padding-left: 30px;
   margin-left: 30px;
